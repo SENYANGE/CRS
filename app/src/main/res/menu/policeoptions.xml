@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/pcomplaints"
+        android:icon="@drawable/messages"
+        app:showAsAction="always"
+        android:title="pcomplaints" />
+    <item android:id="@+id/pprofile"
+        android:icon="@drawable/ic_baseline_perm_identity_24"
+        app:showAsAction="always"
+
+        android:title="@string/profile" />
+    <item android:id="@+id/psettings"
+        android:icon="@drawable/settings"
+        app:showAsAction="always"
+        android:title="@string/settings" />
+    <item android:id="@+id/plogout"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_power_settings_new_24"
+        android:title="@string/logout" />
+
+</menu>

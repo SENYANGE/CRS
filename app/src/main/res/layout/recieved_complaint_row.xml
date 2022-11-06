@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    app:cardElevation="7dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardBackgroundColor="#B7F1BECF"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="2dp"
+    android:orientation="vertical">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/police_pic"
+        android:layout_width="110dp"
+        android:layout_height="111dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingTop="25dp"
+        android:src="@drawable/profile"
+        tools:layout_editor_absoluteX="19dp">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:id="@+id/police_name"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="59dp"
+        android:background="#AB4F0FEC"
+        android:paddingLeft="20dp"
+        android:text="Police 1"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="33dp">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/onlineornot"
+        android:layout_width="33dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="-2dp"
+        android:src="@drawable/online"
+        android:visibility="invisible">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/compl"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="-2dp"
+        android:background="#D01F71FF"
+        android:fontFamily="@font/roboto_regular"
+        android:paddingTop="10dp"
+        android:text="complaint sent"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteY="126dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/date_sent"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/colorAccent"
+        android:padding="5dp"
+        android:text="26/04/04"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <TextView
+        android:id="@+id/user_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="72dp"
+        android:text="TextView"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="172dp" />
+
+    <TextView
+        android:id="@+id/image_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:text="TextView"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <ImageButton
+        android:id="@+id/location_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="331dp"
+        android:layout_marginBottom="452dp"
+        app:srcCompat="@drawable/location"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="362dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <ImageButton
+        android:id="@+id/call_btn"
+        android:layout_width="86dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/compl"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="327dp"
+        app:srcCompat="@drawable/call"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="168dp"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/seen_or"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginStart="303dp"
+        android:layout_marginEnd="23dp"
+        android:src="@drawable/not_seen" />
+
+
+</androidx.cardview.widget.CardView>

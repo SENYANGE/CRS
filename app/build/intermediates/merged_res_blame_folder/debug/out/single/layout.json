@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "/home/programmer/AndroidStudioProjects/CRS/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_profile.xml",
+        "source": "/home/programmer/AndroidStudioProjects/CRS/app/src/main/res/layout/activity_profile.xml"
+    },
+    {
+        "merged": "/home/programmer/AndroidStudioProjects/CRS/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_my_messages.xml",
+        "source": "/home/programmer/AndroidStudioProjects/CRS/app/src/main/res/layout/activity_my_messages.xml"
+    },
+    {
+        "merged": "/home/programmer/AndroidStudioProjects/CRS/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/crs_toolbar.xml",
+        "source": "/home/programmer/AndroidStudioProjects/CRS/app/src/main/res/layout/crs_toolbar.xml"
+    },
+    {
+        "merged": "/home/programmer/AndroidStudioProjects/CRS/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/custom_toolbar.xml",
+        "source": "/home/programmer/AndroidStudioProjects/CRS/app/src/main/res/layout/custom_toolbar.xml"
+    },
+    {
+        "merged": "/home/programmer/AndroidStudioProjects/CRS/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_edit_crime.xml",
+        "source": "/home/programmer/AndroidStudioProjects/CRS/app/src/main/res/layout/activity_edit_crime.xml"
+    },
+    {
+        "merged": "/home/programmer/AndroidStudioProjects/CRS/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_register.xml",
+        "source": "/home/programmer/AndroidStudioProjects/CRS/app/src/main/res/layout/activity_register.xml"
+    },
+    {
+        "merged": "/home/programmer/AndroidStudioProjects/CRS/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/home/programmer/AndroidStudioProjects/CRS/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/programmer/AndroidStudioProjects/CRS/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_get_route.xml",
+        "source": "/home/programmer/AndroidStudioProjects/CRS/app/src/main/res/layout/activity_get_route.xml"
+    },
+    {
+        "merged": "/home/programmer/AndroidStudioProjects/CRS/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_crime_complaint.xml",
+        "source": "/home/programmer/AndroidStudioProjects/CRS/app/src/main/res/layout/activity_crime_complaint.xml"
+    },
+    {
+        "merged": "/home/programmer/AndroidStudioProjects/CRS/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/sender.xml",
+        "source": "/home/programmer/AndroidStudioProjects/CRS/app/src/main/res/layout/sender.xml"
+    },
+    {
+        "merged": "/home/programmer/AndroidStudioProjects/CRS/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_recieved_complaints.xml",
+        "source": "/home/programmer/AndroidStudioProjects/CRS/app/src/main/res/layout/activity_recieved_complaints.xml"
+    },
+    {
+        "merged": "/home/programmer/AndroidStudioProjects/CRS/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_login_page.xml",
+        "source": "/home/programmer/AndroidStudioProjects/CRS/app/src/main/res/layout/activity_login_page.xml"
+    },
+    {
+        "merged": "/home/programmer/AndroidStudioProjects/CRS/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/edit_confirm_dialog.xml",
+        "source": "/home/programmer/AndroidStudioProjects/CRS/app/src/main/res/layout/edit_confirm_dialog.xml"
+    },
+    {
+        "merged": "/home/programmer/AndroidStudioProjects/CRS/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_police_home.xml",
+        "source": "/home/programmer/AndroidStudioProjects/CRS/app/src/main/res/layout/activity_police_home.xml"
+    },
+    {
+        "merged": "/home/programmer/AndroidStudioProjects/CRS/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/recieved_complaint_row.xml",
+        "source": "/home/programmer/AndroidStudioProjects/CRS/app/src/main/res/layout/recieved_complaint_row.xml"
+    },
+    {
+        "merged": "/home/programmer/AndroidStudioProjects/CRS/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_reported_complaints.xml",
+        "source": "/home/programmer/AndroidStudioProjects/CRS/app/src/main/res/layout/activity_reported_complaints.xml"
+    },
+    {
+        "merged": "/home/programmer/AndroidStudioProjects/CRS/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/my_complaint_row.xml",
+        "source": "/home/programmer/AndroidStudioProjects/CRS/app/src/main/res/layout/my_complaint_row.xml"
+    },
+    {
+        "merged": "/home/programmer/AndroidStudioProjects/CRS/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_police_stations.xml",
+        "source": "/home/programmer/AndroidStudioProjects/CRS/app/src/main/res/layout/activity_police_stations.xml"
+    },
+    {
+        "merged": "/home/programmer/AndroidStudioProjects/CRS/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/custom_recieve_message.xml",
+        "source": "/home/programmer/AndroidStudioProjects/CRS/app/src/main/res/layout/custom_recieve_message.xml"
+    },
+    {
+        "merged": "/home/programmer/AndroidStudioProjects/CRS/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_home.xml",
+        "source": "/home/programmer/AndroidStudioProjects/CRS/app/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/home/programmer/AndroidStudioProjects/CRS/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/witness_dialog.xml",
+        "source": "/home/programmer/AndroidStudioProjects/CRS/app/src/main/res/layout/witness_dialog.xml"
+    },
+    {
+        "merged": "/home/programmer/AndroidStudioProjects/CRS/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_my_reported_complaints.xml",
+        "source": "/home/programmer/AndroidStudioProjects/CRS/app/src/main/res/layout/activity_my_reported_complaints.xml"
+    },
+    {
+        "merged": "/home/programmer/AndroidStudioProjects/CRS/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_settings.xml",
+        "source": "/home/programmer/AndroidStudioProjects/CRS/app/src/main/res/layout/activity_settings.xml"
+    }
+]

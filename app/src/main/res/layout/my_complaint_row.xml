@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="7dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardBackgroundColor="#B7F1BECF"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="2dp"
+    android:background="#DCD0E1"
+    android:orientation="vertical">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/police_pic"
+        android:layout_width="81dp"
+        android:layout_height="86dp"
+        android:src="@drawable/profile">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+
+    <TextView
+        android:id="@+id/police_name"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="87dp"
+        android:background="#AB4F0FEC"
+        android:layout_marginTop="2dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:text="Police 1"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/onlineornot"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:visibility="gone"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/online">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/date_sent"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorAccent"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="38dp"
+        android:text="26/04/04" />
+
+    <TextView
+        android:id="@+id/police_id"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="378dp"
+        android:layout_marginEnd="9dp"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/police_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="police image"
+        android:visibility="gone" />
+
+
+    <TextView
+        android:id="@+id/compl"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="-1dp"
+        android:background="#D01F71FF"
+        android:fontFamily="@font/roboto_regular"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:text="complaint sent"
+        android:textSize="15dp">
+
+    </TextView>
+
+
+</androidx.cardview.widget.CardView>

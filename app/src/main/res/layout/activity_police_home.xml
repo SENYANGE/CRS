@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PoliceHome">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/policecardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="418dp"
+        app:layout_constraintBottom_toTopOf="@+id/respond"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:cardCornerRadius="5dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:cardBackgroundColor="#C3E69191"
+        app:cardElevation="7dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/policeprofPic"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:paddingLeft="2dp"
+            android:src="@drawable/profile" />
+
+        <TextView
+            android:id="@+id/policename"
+            android:layout_width="261dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:fontFamily="@font/indigo_daisy"
+            android:padding="10dp"
+            android:text="Excalber"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/policecontact"
+            android:layout_width="266dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="65dp"
+            android:background="#563703AA"
+            android:fontFamily="@font/roboto_regular"
+            android:padding="10dp"
+            android:text="+255466565757"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </androidx.cardview.widget.CardView>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/my_pieChart"
+        android:layout_width="329dp"
+        android:layout_height="493dp"
+        android:layout_marginBottom="16dp"
+        android:elevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/policecardView"
+        app:layout_constraintVertical_bias="0.0" />
+    <!--
+    <Button
+        android:id="@+id/respond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="89dp"
+        android:text="Respond to Complaints"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/policecardView" />
+    -->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

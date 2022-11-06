@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.crs">
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission
+        android:name="android.permission.INTERNAL_SYSTEM_WINDOW"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".CRS_Persistent"
+        android:allowBackup="true"
+        android:icon="@mipmap/crs_log"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/crs_log"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CRS"
+        android:testOnly="false"
+        android:debuggable="true"
+        tools:ignore="HardcodedDebugMode">
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".GetRoute"
+            android:exported="true"
+            android:label="@string/title_activity_get_route" />
+        <activity
+            android:name=".EditCrime"
+            android:exported="true" />
+        <activity android:name=".RecievedComplaints"
+            android:exported="true"/>
+        <activity android:name=".MyMessages"
+            android:exported="true"/>
+        <activity
+            android:name=".ReportedComplaints"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="true"/>
+        <activity android:name=".PoliceHome"
+            android:exported="true"/>
+        <activity android:name=".MyReportedComplaints"
+            android:exported="true"/>
+        <activity
+            android:name=".CrimeComplaint"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SettingsPage"
+            android:exported="true"/>
+        <activity android:name=".Profile"
+            android:exported="true"/>
+        <activity
+            android:name=".PoliceStations"
+            android:exported="true"
+            android:label="@string/title_activity_police_stations" />
+        <activity android:name=".Home"
+            android:exported="true"/>
+        <activity android:name=".Register"
+            android:exported="true"/>
+        <activity android:name=".LoginPage"
+            android:exported="true"/>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.CRS.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CRS</string>
+
+
+    <string name="no_account_register"> Register and get your self an account</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="e_mail">Email</string>
+    <string name="tag">IGNORANCE IS NO DEFENCE</string>
+    <string name="already_registered_login">Already Registered</string>
+    <string name="register">Register </string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="your_name">Full Name</string>
+    <string name="logout">logout</string>
+    <string name="settings">settings</string>
+    <string name="profile">profile</string>
+    <string name="title_activity_police_stations">Map</string>
+    <string name="title_activity_crime_route">CrimeRoute</string>
+    <string name="title_activity_get_route">GetRoute</string>
+    <string name="google_maps_key">AIzaSyD5POIivSn6NhUnO2le65FcmdXx3GebPzE</string>
+
+</resources>
